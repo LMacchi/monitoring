@@ -1,4 +1,9 @@
 #!/usr/bin/perl
+# This script retrieves data from tomcat garbage collector using SNMP
+# It does not evaluate the result, just displays it
+# You'll need snmp enabled in tomcat
+# https://github.com/LMacchi
+
 use warnings;
 use strict;
 use SNMP::Simple;
@@ -44,7 +49,6 @@ sub usage {
         print "\n";
 	print "Get Tomcat Garbage Collector stats using SNMP. The results include perfdata for PNP4nagios.\n";
 	print "This script does not evaluate results, the main objective is graphing.\n";
-	print "SNMP needs to be enabled for tomcat.\n";
         exit 3;
 }
 

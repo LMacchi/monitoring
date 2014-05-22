@@ -1,4 +1,8 @@
 #!/usr/bin/perl
+# This is a skeleton check, nothing fancy, just retrieves an snmp
+# variable and evaluates based on provided thresholds.
+# https://github.com/LMacchi
+
 use strict;
 use SNMP::Simple;
 use Getopt::Long qw(:config no_ignore_case);
