@@ -51,4 +51,3 @@ sub usage {
 	print "This script does not evaluate results, the main objective is graphing.\n";
         exit 3;
 }
-
