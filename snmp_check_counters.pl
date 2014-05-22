@@ -5,7 +5,7 @@
 # It is also the starting point for HA checks, since the active to
 # passive change lasts only one cycle. You can compare previous
 # results and alert on a change in the pattern
-# LMacchi - 2013
+# https://github.com/LMacchi
 
 use strict;
 use SNMP::Simple;
