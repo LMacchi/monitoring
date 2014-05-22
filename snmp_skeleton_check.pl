@@ -94,3 +94,4 @@ sub usage {
 	print "Get stats using SNMP. The results include perfdata for PNP4nagios.\n";
         exit 3;
 }
+
